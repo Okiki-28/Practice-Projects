@@ -51,9 +51,11 @@ def folder():
     while True:
         if not i.isdigit():
             print("Invalid")
+            i = input("Choose again: ")
             continue
         elif not 1 <= int(i) <= len(arr):
             print("Invalid")
+            i = input("Choose again: ")
             continue
         break
     i = int(i)-1
@@ -66,14 +68,16 @@ def folder():
     while True:
         if not i1.isdigit():
             print("Invalid")
+            i1 = input("Choose again: ")
             continue
         elif not 1 <= int(i1) <= len(arr):
             print("Invalid")
+            i1 = input("Choose again: ")
             continue
         break
     i1 = int(i1)-1
     target_path = os.path.join(Path.home(), arr[i1], home)
-    print("Target Path: {target_path}")
+    print(f"Target Path: {target_path}")
 
     files = os.listdir(path)
 
