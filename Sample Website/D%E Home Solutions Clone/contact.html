@@ -25,26 +25,43 @@
         <main>
             <section class="sub-main contact-main">
                 <h1>Get in touch</h1>
-                <p>Use the contact form below to inquire about our services, 
-                    and we’ll respond promptly to assist you.</p>
-                <form>
-                    <section>
-                        <label for="f-name">First Name</label>
-                        <input type="text" name="f-name">
-                        <label for="l-name">Last Name</label>
-                        <input type="text" name="l-name">
-                    </section>
-                    <br>
-                    <label for="phone">Phone</label>
-                    <input type="text" name="phone">
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                    <label for="postcode">Postcode</label>
-                    <input type="text" name="postcode">
-                    <label for="more">Tell us what you need</label>
-                    <input type="text" name="more">
-                    
-                </form>
+                <div class="contact-motto">
+                    <p>Use the contact form below to inquire about our services, 
+                        and we’ll respond promptly to assist you.</p>
+                </div>
+                <div class="contact-div">
+                    <form>
+                        <label for="">Name<span> (required)</span></label>
+                        <div class="name-cls">
+                            <div>
+                                <label for="f-name">First Name</label>
+                                <input type="text" name="f-name" required>
+                            </div>
+                            <div>
+                                <label for="l-name">Last Name</label>
+                                <input type="text" name="l-name">
+                            </div>
+                        </div>
+                        <br>
+                        <label for="phone">Phone<span> (required)</span></label>
+                        <input type="text" name="phone" required>
+                        <label for="email">Email<span> (required)</span></label>
+                        <input type="email" name="email" required>
+                        <label for="postcode">Postcode<span> (required)</span></label>
+                        <input type="text" name="postcode" required>
+                        <label for="more">Tell us what you need<span> (required)</span></label>
+                        <input type="text" name="more" required>
+                        <button class="btn contact-btn" type="submit">Submit</button>
+                    </form>
+                    <div class="contact-info">
+                        <h1>Contact</h1>
+                        <p>Email:</p>
+                        <p><a>testemail123@gmail.com</a></p>
+                        <br>
+                        <p>Phone</p>
+                        <p><a>01234567</a></p>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
@@ -67,10 +84,10 @@
             <div class="foot-section links">
                 <div class="quick">
                     <h3>Quick Links</h3>
-                    <a href="">Home</a>
-                    <a href="">Services</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
+                    <a href="index.html">Home</a>
+                    <a href="service.html">Services</a>
+                    <a href="aboutus.html">About</a>
+                    <a href="contact.html">Contact</a>
                     <a href="">Privacy Policy</a>
                 </div>
                 <div class="contact">

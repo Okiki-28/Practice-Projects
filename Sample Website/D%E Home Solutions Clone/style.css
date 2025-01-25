@@ -342,15 +342,110 @@ footer .foot-section {
     width: 75%;
 }
 
+
+
+
 .contact-main {
     padding: 65px;
 }
 
-.contact-main form {
+.contact-main h1 {
+    font-size: 55px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.contact-main .contact-motto {
+    width: 35%;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.contact-main .contact-div {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.contact-main .contact-div form {
+    flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.contact-main section {
+.contact-main .contact-div form .contact-btn {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.contact-main .contact-div form input {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.contact-main .contact-div form input:hover {
+    border: 1px solid black;
+}
+
+.contact-main .contact-div form input[name="more"] {
+    height: 80px;
+}
+
+.contact-main .contact-div form label {
     flex-basis: 100%;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.contact-main .contact-div form label span {
+    opacity: 70%;
+}
+
+.contact-main .contact-div form .name-cls {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact-main .contact-div form .name-cls div {
+    flex-basis: 50%;
+}
+
+.contact-main .contact-div form .name-cls label {
+    font-size: 14px;
+}
+
+.contact-main .contact-div form .name-cls label input {
+    margin-bottom: 0px;
+    width: 1000px;
+}
+
+.contact-main .contact-info {
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 7.5%;
+}
+
+.contact-main .contact-info {
+    font-size: 25px;
+}
+
+.contact-main .contact-div .contact-info h1 {
+    font-style: normal;
+}
+
+.contact-main .contact-info p a {
+    text-decoration: underline;
 }
