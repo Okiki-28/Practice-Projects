@@ -34,24 +34,24 @@
                         <label for="">Name<span> (required)</span></label>
                         <div class="name-cls">
                             <div>
-                                <label for="f-name">First Name</label>
-                                <input type="text" name="f-name" required>
+                                <label for="firstname">First Name</label>
+                                <input type="text" name="firstname" required>
                             </div>
                             <div>
-                                <label for="l-name">Last Name</label>
-                                <input type="text" name="l-name">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" name="lastname">
                             </div>
                         </div>
                         <br>
                         <label for="phone">Phone<span> (required)</span></label>
-                        <input type="text" name="phone" required>
+                        <input type="tel" pattern="\+?[0-9\s\-()]{10,15}" name="phone" required>
                         <label for="email">Email<span> (required)</span></label>
                         <input type="email" name="email" required>
                         <label for="postcode">Postcode<span> (required)</span></label>
-                        <input type="text" name="postcode" required>
+                        <input type="text" name="postcode" maxlength="10" required>
                         <label for="more">Tell us what you need<span> (required)</span></label>
-                        <input type="text" name="more" required>
-                        <button class="btn contact-btn" type="submit">Submit</button>
+                        <textarea type="text" name="more-info" autocomplete="off" required></textarea>
+                        <button class="btn contact-btn" type="submit" title="Click to submit">Submit</button>
                     </form>
                     <div class="contact-info">
                         <h1>Contact</h1>

@@ -382,20 +382,28 @@ footer .foot-section {
 }
 
 .contact-main .contact-div form input {
-    padding: 15px;
+    padding: 12px;
     border: none;
     border-radius: 30px;
     margin-bottom: 15px;
     width: 100%;
     border: 1px solid white;
+    font-size: 16px;
 }
 
-.contact-main .contact-div form input:hover {
+.contact-main .contact-div form textarea {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid white;
+    font-size: 16px;
+    height: 100px;
+}
+
+.contact-main .contact-div form input:hover,
+.contact-main .contact-div form textarea:hover {
     border: 1px solid black;
-}
-
-.contact-main .contact-div form input[name="more"] {
-    height: 80px;
 }
 
 .contact-main .contact-div form label {
