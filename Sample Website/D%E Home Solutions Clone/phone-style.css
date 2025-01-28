@@ -1,0 +1,134 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        padding: 15px;
+        height: 100px;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+
+    .main .motto {
+        padding-top: 10px;
+        margin: 80px 16px 30px;
+        font-size: 15.5px;
+        font-weight: 100;
+    }
+
+    .motto h1 {
+        line-height: normal;
+    }
+
+    .sub-main {
+        padding: 20px 20px 0px;
+    }
+
+    .sub-main .heading h1 {
+        font-size: 40px;
+    }
+
+    .services-group {
+        justify-content: center;
+    }
+
+    .ind-group {
+        flex-basis: 100%;
+        height: 160px;
+    }
+
+    .ind-group h1 {
+        font-size: 28px;
+    }
+
+    .ind-group .darken {
+        opacity: 20%;
+    }
+
+    .query {
+        margin-bottom: 30px;
+    }
+
+    .query h1 {
+        font-size: 25px;
+    }
+
+    .query a {
+        font-size: 22.5px;
+    }
+
+    .sub-main.works {
+        padding-top: 15px;
+    }
+
+    .sub-main.works .heading {
+        margin: 20px 15px 10px;
+        text-align: left;
+    }
+
+    .sub-main.works .heading h1 {
+        font-size: 35px;
+    }
+
+    .works-info {
+        flex-basis: 100%;
+        margin: 50px 14px;
+        text-align: center;
+    }
+
+    .works-info p {
+        font-size: 18px;
+    }
+
+    .sub-main.works .btn-cont {
+        margin: 20px auto;
+    }
+
+    .sub-main.works .btn-cont .btn {
+        border-radius: 40px;
+        width: 180px;
+    }
+
+    footer {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .foot-section.meet-me {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 45px 0px;
+    }
+
+    .foot-section.meet-me h1 {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .foot-section.meet-me .text {
+        width: 100%;
+    }
+
+    .foot-section.meet-me .text p {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .foot-section.links {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .foot-section.links .quick {
+        flex-basis: 100%;
+        height: 190px;
+    }
+
+    .foot-section.links .contact {
+        flex-basis: 100%;
+        height: 190px;
+    }
+
+
+}
