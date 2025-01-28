@@ -20,6 +20,11 @@ header {
    justify-content: space-between;
 }
 
+.phone-nav, #nav-opt {
+    display: none;
+    
+}
+
 .nav-logo {
     height: 100%;
     display: flex;
@@ -346,7 +351,7 @@ footer {
 }
 
 
-
+/*-------------contact----------------*/
 
 .contact-main {
     padding: 65px;
@@ -436,7 +441,6 @@ footer {
 
 .contact-main .contact-div form .name-cls label input {
     margin-bottom: 0px;
-    width: 1000px;
 }
 
 .contact-main .contact-info {
@@ -447,9 +451,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 7.5%;
-}
-
-.contact-main .contact-info {
     font-size: 25px;
 }
 
@@ -462,4 +463,11 @@ footer {
     cursor: pointer;
 }
 
-/*---------Responsive----------*/
+/*---------services----------*/
+.ind-group.sc {
+    height: 400px;
+}
+
+.services-group.sc {
+    margin: 90px 0px;
+}

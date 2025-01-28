@@ -2,16 +2,32 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="wisth=device-width initial-scale=1.0">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="phone-style.css">
         <script src="https://kit.fontawesome.com/15caac7a0d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
+            <div id="nav-opt">
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="contact.html" class="nav-active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="nav-logo">
                 <img src="Images/Logo2.png">
+            </div>
+            <div class="phone-nav">
+                <button class="nav-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
             <div class="nav-menu">
                 <ul>
@@ -99,5 +115,6 @@
                 </div>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
